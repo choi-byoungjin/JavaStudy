@@ -4,7 +4,7 @@ public class HelloJava {
 
 	public static void main(String[] args) {
 		System.out.println("Hello, Java");
-		//ÁÖ¼® ¿¬½À
-		//2021³â 5¿ù 3ÀÏ 2½Ã40ºĞ
+		//ì£¼ì„ ì—°ìŠµ
+		//2021ë…„ 5ì›” 3ì¼ 2ì‹œ45ë¶„
 	}
 }
