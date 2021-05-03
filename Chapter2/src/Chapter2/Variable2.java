@@ -6,6 +6,6 @@ public class Variable2 {
 		int level = 10;
 		System.out.println(level);
 
-	}
+	} 
 
 }
