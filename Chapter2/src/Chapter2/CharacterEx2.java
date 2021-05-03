@@ -10,4 +10,4 @@ public class CharacterEx2 {
 		System.out.println(ch2);
 	}
 
-}
+}//ÇÑ±Û
