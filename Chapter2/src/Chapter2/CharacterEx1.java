@@ -17,6 +17,6 @@ public class CharacterEx1 {
 		System.out.println(ch3);
 		System.out.println((char)ch3);
  
-	}
+	}//¼öÁ¤
 
 }
