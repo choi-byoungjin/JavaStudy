@@ -1,7 +1,6 @@
 package Chapter2;
 
 public class Constant {
-
 	public static void main(String[] args) {
 		final int MAX_NUM = 100;//선언 동시에 초기화//final 예약어로 상수 선언
 		final int MIN_NUM;
