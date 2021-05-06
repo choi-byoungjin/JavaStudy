@@ -12,5 +12,5 @@ public class OperationEx4 {
 		System.out.println(ch);
 
 	}
-
+ 
 }
