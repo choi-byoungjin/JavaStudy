@@ -17,6 +17,10 @@ public class IfExample2 {
 			charge = 2500;
 			System.out.println("중, 고등학생입니다.");
 		}
+		else if(age > 60) {
+			charge = 0;
+			System.out.println("경로우대입니다.");
+		}
 		else {
 			charge = 3000;
 			System.out.println("일반인입니다.");
