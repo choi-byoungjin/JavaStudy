@@ -7,6 +7,6 @@ public class Student {//클래스 이름은 첫글자 대문자로 한다
 	String address;		//사는 곳 : 멤버 변수(속성)
 	
 	public void showStudentInfo() {
-		System.out.println(studentName + "," + address);
+		System.out.println(studentName + "," + address);//이름, 주소 출력
 	}
 }
