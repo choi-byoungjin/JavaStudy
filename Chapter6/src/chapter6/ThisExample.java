@@ -6,12 +6,12 @@ class BirthDay{
 	int year;
 	
 	public void setYear(int year) {
-		this.year = year;
-	}
+		this.year = year;//bDay.year = year;와 같음
+	}//태어난 연도를 지정하는 메서드
 	
 	public void printThis() {
-		System.out.println(this);
-	}
+		System.out.println(this);//System.out.println(bDay);와 같음
+	}//this 출력 메서드
 }
 public class ThisExample {
 
