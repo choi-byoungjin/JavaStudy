@@ -4,5 +4,5 @@ public class Student3 {
 	int studentID;
 	String studentName;
 	Subject korean;
-	Subject math;
+	Subject math;//참조 자료형
 }
