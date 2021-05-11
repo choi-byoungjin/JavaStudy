@@ -14,9 +14,9 @@ public class Student {//클래스 이름은 첫글자 대문자로 한다
 		return studentName;
 	}
 	
-//	public void setStudentName(String name) {
-//		studentName = name;
-//	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
 	
 	public static void main(String[] args) {
 		Student studentAhn = new Student();
