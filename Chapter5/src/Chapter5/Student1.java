@@ -5,4 +5,7 @@ public class Student1 {
 	String studentName;
 	int koreaScore;
 	int mathScore;
+	
+	String koreaSubject;
+	String mathSubject;
 }
