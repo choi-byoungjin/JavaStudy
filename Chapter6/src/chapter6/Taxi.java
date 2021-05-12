@@ -1,12 +1,12 @@
 package chapter6;
 
 public class Taxi {
-	int taxiNumber;
+	String taxiName;
 	int passengerCount;
 	int money;
 
-	public Taxi(int taxiNumber) {
-		this.taxiNumber = taxiNumber;
+	public Taxi(String taxiNumber) {
+		this.taxiName = taxiName;
 	}
 
 	public void take(int money) {
@@ -15,6 +15,6 @@ public class Taxi {
 	}
 
 	public void showInfo() {
-		System.out.println("택시" + taxiNumber + "번의 승객은" + passengerCount + "명이고, 수입은" + money + "입니다.");
+		System.out.println("택시" + taxiName + "번의 승객은" + passengerCount + "명이고, 수입은" + money + "입니다.");
 	}
 }

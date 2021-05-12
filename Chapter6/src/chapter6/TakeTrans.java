@@ -5,6 +5,7 @@ public class TakeTrans {
 		
 		Student studentJames = new Student("James", 5000);
 		Student studentTomas = new Student("Tomas", 10000);	//학생 두 명 생성
+		Student studentEdward = new Student("Edward", 30000);
 		
 		Bus bus100 = new Bus(100);					//노선 번호가 100번인 버스 생성
 		
@@ -17,6 +18,14 @@ public class TakeTrans {
 		studentTomas.takeSubway(subwayGreen);		//Tomas가 2호선을 탐
 		studentTomas.showInfo();					//Tomas 정보 출력
 		subwayGreen.showInfo();						//지하철 정보 출력
+		
+		Taxi taxiKakao = new Taxi("카카오");
+		
+		studentEdward.takeTaxi(taxiKakao);
+		studentEdward.showInfo();
+		taxiKakao.showInfo();
+		
+		
 	}
 
 }
