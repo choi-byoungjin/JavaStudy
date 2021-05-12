@@ -21,7 +21,7 @@ public class Student {
 	}	//학생이 지하철을 타면 1500원을 지불하는 기능을 구현한 메서드
 	
 	public void takeTaxi(Taxi taxi) {
-		taxi.take(10000);
+		taxi.take(10000);//
 		this.money -= 10000;
 	}
 	
