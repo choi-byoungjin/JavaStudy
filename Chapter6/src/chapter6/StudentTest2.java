@@ -5,7 +5,7 @@ public class StudentTest2 {
 	public static void main(String[] args) {
 		Student1 studentLee = new Student1();
 		studentLee.setStudentName("이지원");
-		System.out.println(studentLee.serialNum);
+		System.out.println(studentLee.serialNum);// static 변수이므로 인스턴스 참조 변수가 아닌 클래스 이름으로 직접 참조하라는 뜻
 		System.out.println(studentLee.studentName + "학번:" + studentLee.studentID);
 
 		Student1 studentSon = new Student1();
