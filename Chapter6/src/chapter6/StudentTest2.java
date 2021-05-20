@@ -7,7 +7,7 @@ public class StudentTest2 {
 		studentLee.setStudentName("이지원");
 		System.out.println(studentLee.serialNum);
 		System.out.println(studentLee.studentName + "학번:" + studentLee.studentID);
-		
+
 		Student1 studentSon = new Student1();
 		studentSon.setStudentName("손수경");
 		System.out.println(studentSon.serialNum);
