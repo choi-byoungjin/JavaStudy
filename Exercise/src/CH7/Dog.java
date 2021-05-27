@@ -24,7 +24,7 @@ public class Dog {
 		this.type = type;
 	}
 	
-	public String showDogInfo() {
-		return name + "," + type;
+	public void showDogInfo() {
+		System.out.println(name + "," + type); 
 	}
 }
