@@ -11,7 +11,7 @@ public class Student {
 	public Student(int studentID, String studentName) {
 		this.studentID = studentID;
 		this.studentName = studentName;
-		subjectList = new ArrayList<subject>();//ArrayList 생성하기
+		subjectList = new ArrayList<Subject>();//ArrayList 생성하기
 	}//생성자
 	
 	public void addSubject(String name, int score) {
@@ -25,9 +25,9 @@ public class Student {
 		int total = 0;
 		for(Subject s : subjectList) {
 			total += s.getScorePoint();
-			System.out.println("학생" + studentName + "의" + s.getName() + "과목성적은" + s.getScorePoint() + "입니다.");
+			System.out.println("학생 " + studentName + "의 " + s.getName() + "과목성적은 " + s.getScorePoint() + "입니다.");
 		}//배열 요소 값 출력
-		System.out.println("학생" + studentName + "의 총점은" + total + "입니다.");
+		System.out.println("학생 " + studentName + "의 총점은 " + total + "입니다.");
 	}
 	
 }

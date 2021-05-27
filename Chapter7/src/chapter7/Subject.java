@@ -17,7 +17,7 @@ public class Subject {
 		return scorePoint;
 	}
 	
-	public void setScorePiont(int scorePiont) {
+	public void setScorePoint(int scorePiont) {
 		this.scorePoint = scorePiont;
 	}
 }
