@@ -13,6 +13,14 @@ public class Customer {
 		System.out.println("Customer( ) 생성자 호출");//상위 클래스 생성할 때 콘솔 출력문
 	}//디폴트 생성자
 	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		customerGrade = "SILVER";
+		bonusRatio = 0.01;
+		System.out.println("Customer(int, String) 생성자 호출");
+	}
+	
 	public int getCustomerID() {
 		return customerID;
 	}
