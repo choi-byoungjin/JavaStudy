@@ -18,6 +18,11 @@ public class VIPCustomer extends Customer {//VIPCustomer 클래스는 Customer 클래�
 		System.out.println("VIPCustomer(int, String, int) 생성자 호출");
 	}
 	
+	public int calcPrice(int price) {//재정의한 메서드
+		bonusPoint += price * bonusRatio;//보너스 포인트 적립
+		return price - (int)(price * saleRatio);//할인된 가격을 계산하여 반환
+	}
+	
 	public int getAgentID() {
 		return agentID;
 	}

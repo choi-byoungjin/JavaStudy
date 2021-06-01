@@ -1,7 +1,7 @@
 package chapter8;
 
 public class CustomerTest2 {
-
+	
 	public static void main(String[] args) {
 		VIPCustomer customerKim = new VIPCustomer();
 		customerKim.setCustomerID(10020);
