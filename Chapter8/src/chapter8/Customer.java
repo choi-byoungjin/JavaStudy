@@ -8,13 +8,13 @@ public class Customer {
 	double bonusRatio;				//적립 비율
 	//멤버 변수
 	public Customer() {
-		initCustomer()
+		initCustomer();
 	}//디폴트 생성자
 	
 	public Customer(int customerID, String customerName) {
 		this.customerID = customerID;
 		this.customerName = customerName;
-		initCustomer()//고객 등급과 보너스 포인트 적립률 지정 함수 호출
+		initCustomer();//고객 등급과 보너스 포인트 적립률 지정 함수 호출
 	}
 	
 	private void initCustomer() {//생성자에서만 호출하는 메서드이므로 private으로 선언
