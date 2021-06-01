@@ -8,14 +8,14 @@ public class VIPCustomer extends Customer {//VIPCustomer 클래스는 Customer 클래�
 		customerGrade = "VIP";//상위 클래스에서 private 변수이므로 오류 발생
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
-	    System.out.println("VIPCustomer( ) 생성자 호출");
+	    //System.out.println("VIPCustomer( ) 생성자 호출");
 	}
 	public VIPCustomer(int customerID, String customerName, int agentID) {
 		super(customerID, customerName);
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
-		System.out.println("VIPCustomer(int, String, int) 생성자 호출");
+		//System.out.println("VIPCustomer(int, String, int) 생성자 호출");
 	}
 	
 	public int calcPrice(int price) {//재정의한 메서드
