@@ -60,6 +60,10 @@ public class AnimalTest {
 				Human h = (Human)ani;				//Human형으로 다운 캐스팅
 				h.readBook();
 			}
+			else if(ani instanceof Tiger) {
+				Tiger t = (Tiger)ani;
+				t.hunting();
+			}
 			else if(ani instanceof Eagle) {
 				Eagle e = (Eagle)ani;
 				e.flaying();
