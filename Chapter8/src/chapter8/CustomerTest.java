@@ -7,8 +7,8 @@ public class CustomerTest {
 		
 		Customer customerLee = new Customer(10010, "ÀÌ¼ø½Å");
 		Customer customerShin = new Customer(10020, "½Å»çÀÓ´ç");
-		Customer customerHong = new Customer(10030, "È«±æµ¿");
-		Customer customerYoul = new Customer(10040, "ÀÌÀ²°î");
+		Customer customerHong = new GoldCustomer(10030, "È«±æµ¿");
+		Customer customerYoul = new GoldCustomer(10040, "ÀÌÀ²°î");
 		Customer customerKim = new VIPCustomer(10050, "±èÀ¯½Å", 12345);
 		
 		customerList.add(customerLee);
