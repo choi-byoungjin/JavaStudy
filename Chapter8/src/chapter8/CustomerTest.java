@@ -9,7 +9,7 @@ public class CustomerTest {
 		Customer customerShin = new Customer(10020, "Ω≈ªÁ¿”¥Á");
 		Customer customerHong = new Customer(10030, "»´±Êµø");
 		Customer customerYoul = new Customer(10040, "¿Ã¿≤∞Ó");
-		Customer customerKim = new Customer(10050, "±Ë¿ØΩ≈", 12345);
+		Customer customerKim = new VIPCustomer(10050, "±Ë¿ØΩ≈", 12345);
 		
 		customerList.add(customerLee);
 		customerList.add(customerKim);
