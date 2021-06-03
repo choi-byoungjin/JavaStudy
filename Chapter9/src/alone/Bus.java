@@ -1,4 +1,4 @@
-package chapter9;
+package alone;
 
 public class Bus extends Car{
 
