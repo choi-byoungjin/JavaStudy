@@ -1,4 +1,4 @@
-package Alone;
+package chapter11;
 
 public class StringEquals {
 	public static void main(String[] args) {

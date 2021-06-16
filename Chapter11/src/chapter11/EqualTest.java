@@ -1,4 +1,4 @@
-package Alone;
+package chapter11;
 
 class Student{
 	int studentId;
