@@ -11,7 +11,7 @@ class Book{
 	@Override
 	public String toString() {
 		return bookTitle + "," + bookNumber;
-	}
+	}//toString() 메서드 재정의
 }
 public class ToStringEx {
 	public static void main(String[] args) {
