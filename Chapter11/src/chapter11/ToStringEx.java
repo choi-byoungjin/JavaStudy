@@ -8,6 +8,9 @@ class Book{
 		this.bookNumber = bookNumber;
 		this.bookTitle = bookTitle;
 	}//책 번호와 제목을 매개변수로 입력받는 생성자
+	public String toString() {
+		return bookTitle + "," + bookNumber;
+	}
 }
 public class ToStringEx {
 	public static void main(String[] args) {
@@ -16,4 +19,6 @@ public class ToStringEx {
 		System.out.println(book1);//인스턴스 정보(클래스 이름.주소 값)
 		System.out.println(book1.toString());//toString() 메서드로 인스턴스 정보(클래스 이름.주소 값)를 보여 줌
 	}
+
+	@Override
 }

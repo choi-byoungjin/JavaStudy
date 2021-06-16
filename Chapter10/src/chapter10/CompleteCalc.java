@@ -19,4 +19,10 @@ public class CompleteCalc extends Calculator {
 		System.out.println("Calc 인터페이스를 구현하였습니다.");
 	}//CompleteCalc에서 추가로 구현한 메서드
 
+	@Override
+	public int substract(int num1, int num2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
