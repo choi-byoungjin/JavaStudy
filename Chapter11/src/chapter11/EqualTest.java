@@ -14,6 +14,11 @@ class Student{
 	}
 
 	@Override
+	public int hashCode() {
+		return studentId;
+	}//해시 코드 값으로 학번을 반환하도록 메서드 재정의
+
+	@Override
 	public boolean equals(Object obj) {
 		if(obj instanceof Student) {
 			Student std = (Student)obj;
@@ -51,6 +56,12 @@ public class EqualTest {
 		else
 			System.out.println("studentLee와 studentSang는 동일하지 않습니다.");
 		//동일인이지만 인스턴스의 주소가 다른경우
+		
+		System.out.println("studentLee의 hashCode :" + studentLee.hashCode());
+		System.out.println("studentSang의 hashCode :" + studentSang.hashCode());
+		
+		System.out.println("studentLee의 실제 주소값 :" + System.identityHashCode(studentLee));
+		System.out.println("studentSang의 실제 주소값 :" + System.identityHashCode(studentSang));
 	}
 
 }
