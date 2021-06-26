@@ -14,4 +14,8 @@ public class GenericPrinter<T extends Material> {//제네릭 클래스 / Type의 약자. 
 	public String toString() {
 		return material.toString();
 	}
+	
+	public void printing() {
+		material.doPrinting();
+	}
 }
