@@ -1,4 +1,4 @@
-package chapter12;
+package collection;
 
 public class Member {
 	private int memberId; //회원 아이디
