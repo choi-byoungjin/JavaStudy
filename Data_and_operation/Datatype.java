@@ -13,5 +13,9 @@ public class Datatype{
 		
 		System.out.println("1111".length());
 		//System.out.println(1111.length());//에러발생
+		
+		System.out.println("Hello World");//String 문자열
+		System.out.println('H');//Char 문자
+		System.out.println("H");
 	}
 }
