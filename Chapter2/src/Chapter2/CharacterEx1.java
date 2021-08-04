@@ -16,7 +16,7 @@ public class CharacterEx1 {
 		int ch3 = 97;
 		System.out.println(ch3);
 		System.out.println((char)ch3);
- 
+		
 	}//¼öÁ¤
 
 }
